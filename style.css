@@ -9,7 +9,7 @@
 body {
   font-family: "DM Sans";
   /* display: flex; */
-  background-color: red;
+  /* background-color: red; */
 }
 
 /*Navigation bar*/
@@ -234,7 +234,7 @@ img#social {
 /* 4 boxes*/
 div.boxes {
   position: relative;
-  top: 560px;
+  top: 620px;
   /* border: #797979;
   border-style: dashed; */
   display: flex;
@@ -275,30 +275,102 @@ div.Information {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border: none;
+  background: rgba(72, 62, 255, 1);
+
+  top: 800px;
+  margin: 15px;
+  padding: 20px;
+  font-size: 35px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  border-radius: 22px;
+}
+div.about {
+  padding: 10px;
+  padding-top: 40px;
+  /* border: solid; */
+  margin: 10px 70px 10px 70px;
+  width: 397px;
+  height: 133px;
+  font: 35px;
+
+  background: #bce0f6;
+  box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+  border-radius: 22px;
+}
+div.settings {
+  padding: 10px;
+  padding-top: 40px;
+
+  border: white;
   border: solid;
-  border-style: dashed;
-  top: 600px;
-  margin: 10px;
-  padding: 15px;
+  border-radius: 22px;
+
+  margin: 10px 70px 10px 70px;
+  width: 397px;
+  height: 133px;
+  font: 35px;
+  color: white;
+}
+div.bookmark {
+  padding: 10px;
+  padding-top: 40px;
+
+  border: white;
+  border: solid;
+  border-radius: 22px;
+
+  margin: 10px 70px 10px 70px;
+  width: 397px;
+  height: 133px;
+  font: 35px;
+  color: white;
 }
 div.self-info {
   position: relative;
   grid-column-start: 2;
   grid-row-start: 1;
   grid-row-end: 4;
-  border: solid;
+  border: none;
+  background-color: white;
   padding: 10px;
+  padding-left: 20px;
+  color: rgba(4, 40, 90, 1);
+  border-radius: 22px;
 }
 form.Information {
-  padding: 10px;
+  padding: 40px;
+  text-align: left;
+  margin-bottom: 60px;
   /* display: flex;
   flex-direction: column; */
 }
 label {
   margin-bottom: 10px;
   display: inline-block;
+  font-size: 28px;
+  font-weight: 500;
+}
+label > input {
+  font-size: 24px;
+  border: none;
+  font-weight: 400;
 }
 div.self-info img {
   position: absolute;
   right: 0;
+}
+
+button#Next {
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: #000000;
+  border-radius: 9px;
+  color: white;
 }
