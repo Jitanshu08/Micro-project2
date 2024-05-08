@@ -17,8 +17,9 @@ nav {
   background: rgba(111, 106, 247, 1);
   height: 20vh;
   width: 100vw;
-  position: relative;
+  position: fixed;
   z-index: 1;
+  top: 0;
 }
 label.logo {
   color: rgba(255, 255, 255, 1);
@@ -36,7 +37,6 @@ nav ul {
   align-items: center;
 }
 nav ul li {
-  display: inline-block;
   line-height: 20vh;
   margin: 0 5px;
   font-size: 36.43px;
@@ -204,6 +204,7 @@ div.contents {
   position: relative;
   padding: 240px 40px 0 40px;
   max-width: 100%;
+  margin: 15px;
 }
 img#img4 {
   position: absolute;
@@ -279,7 +280,7 @@ div.Information {
   background: rgba(72, 62, 255, 1);
 
   top: 800px;
-  margin: 15px;
+  margin: 20px;
   padding: 20px;
   font-size: 35px;
   text-align: center;
